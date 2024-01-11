@@ -1,0 +1,3 @@
+bison exCalc.y
+flex mini_l.c
+cc -o calc y.tab.c lex.yy.c -lfl
